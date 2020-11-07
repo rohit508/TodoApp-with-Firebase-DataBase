@@ -1,0 +1,95 @@
+        .main {
+            text-align: center;
+            margin-top: 10%;
+        }
+        
+        body {
+            background-image: url("todo.jpg");
+        }
+        
+        .value {
+            width: 20%;
+            height: 30px;
+            font-size: 20px;
+            outline: none;
+            border: black 3px solid;
+            font-family: cursive;
+            border-radius: 10px;
+        }
+        
+        .addtodo {
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            border: rgb(255, 255, 255) 5px solid;
+            margin-left: 20px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        
+        .delete-btn {
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            border: rgb(255, 255, 255) 5px solid;
+            margin-left: 20px;
+            font-family: cursive;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        
+        .Edit-btn {
+            padding: 10px;
+            border-radius: 10px;
+            border: rgb(255, 255, 255) 5px solid;
+            outline: none;
+            margin-left: 20px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        
+        .list_li {
+            font-size: 19px;
+            font-family: cursive;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        .list_li {
+            text-decoration: none;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .main {
+                text-align: center;
+                margin-top: 20%;
+            }
+            .value {
+                width: 90%;
+                height: 35px;
+                font-size: 20px;
+                outline: none;
+                border: black 2px solid;
+                font-family: cursive;
+                border-radius: 10px;
+            }
+            .addtodo {
+                padding: 10px;
+                border-radius: 10px;
+                outline: none;
+                border: rgb(255, 255, 255) 5px solid;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            .list_li {
+                font-size: 15px;
+                font-family: cursive;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            .list_li {
+                text-decoration: none;
+            }
+        }
